@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// Import skill logos (place these images in your /assets or /images folder)
+// Import skill logos
 import htmlLogo from "../assets/icons/html.png";
 import cssLogo from "../assets/icons/css.png";
 import jsLogo from "../assets/icons/javascript.png";
@@ -22,7 +22,7 @@ function Skills() {
   ];
 
   return (
-    <div className="container py-5">
+    <div className="container px-3" style={{ marginTop: "80px" }}>
       <h2 className="text-center mb-4">My Skills</h2>
       <div className="row justify-content-center">
         {skills.map((skill, index) => (
